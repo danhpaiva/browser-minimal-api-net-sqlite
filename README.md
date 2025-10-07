@@ -26,6 +26,16 @@ O modelo de dados esta simples porque o foco esta em abstrair alguns conheciment
 Você precisa ter o Visual Studio 2022 ou VsCode instalado para testar o projeto.</br>
 O projeto roda sob o SDK .Net 8.
 
+Comandos do EfCore utilizados:
+
+~~~
+dotnet tool install --global dotnet-ef
+
+dotnet ef migrations add PrimeiraMigration
+
+dotnet ef database update
+~~~
+
 <h2 id=technology>🧰 Tecnologias</h2>
 
 As seguintes tecnologias foram utilizadas neste projeto:
